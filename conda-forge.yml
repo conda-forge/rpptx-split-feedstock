@@ -1,5 +1,6 @@
 conda_build_tool: rattler-build
 bot:
+  automerge: true
   version_updates:
     sources:
     - github
