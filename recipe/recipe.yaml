@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.14.3"
+  version: "0.14.4"
 
 recipe:
   name: rpptx-split
@@ -11,7 +11,7 @@ recipe:
 source:
   # One tag per family releases the CLI, the crates and the Python distribution.
   url: https://github.com/tensorbee/rdocx/archive/refs/tags/rpptx-v${{ version }}.tar.gz
-  sha256: 2592a8255db701b59243adaf4645a0634d33361cf334256099e6623db31465a1
+  sha256: 464a89376d96d50ef15f454cfed8d9162939f2ad0597c19b7dbc6a1773c64102
 
 build:
   number: 0
